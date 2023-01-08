@@ -1,0 +1,392 @@
+while True:
+
+  print(" ")
+  print("Menu:")
+  print(" ")
+  print("Chips - 4 AED")
+  print(" ")
+  cheetoes=11
+  print("11 - Cheetoes")
+  doritoes=12
+  print("12 - Doritoes")
+  lays=13
+  print("13 - Lays")
+  kurkure=14
+  print("14 - Kurkure")
+  oman_chips=15
+  print("15 - Oman Chips")
+  pringles=16
+  print("16 - Pringles")
+  bugles=17
+  print("17 - Bugles")
+  lays_max=18
+  print("18 - Lays Max")
+  mr_krips=19
+  print("19 - Mr Krips")
+  takis=12
+  print("20 - Takis")
+  print(" ")
+  print("Candy - 2 AED")
+  print(" ")
+  m_ms=21
+  print("21 - M&Ms")
+  gumballs=22
+  print("22 - Gumballs")
+  skittles=23
+  print("23 - Skittles")
+  hello_panda=24
+  print("24 - Hello Panda")
+  pop_rocks=25
+  print("25 - Pop rocks")
+  sour_candy=26
+  print("26 - Sour Candy")
+  bubble_gum=27
+  print("27 - Bubble Gum")
+  lolipop=28
+  print("28 - Lolipop")
+  print(" ")
+  print("Soda - 3 AED")
+  coca_cola=31
+  print("31 - Coca Cola")
+  seven_up=32
+  print("32 - 7up")
+  mountain_dew=33
+  print("33 - Mountain Dew")
+  fanta=34
+  print("34 - Fanta")
+  sprite=35
+  print("35 - Sprite")
+  pepsi=36
+  print("36 - Pepsi")
+  print(" ")
+  print("Juices - 1 AED")
+  apple=41
+  print("41 - Apple")
+  orange=42
+  print("42 - Orange")
+  mango=43
+  print("43 - Mango")
+  strawberry=44
+  print("44 - Strawberry")
+  pomogranate=45
+  print("45 - Pomogranate")
+  lichi=46
+  print("46 - Lichi")
+  lemon=47
+  print("47 - Lemon")
+  lemon_mint=48
+  print("48 - Lemon Mint")
+  mixed=49
+  print("49 - Mixed")
+  water=50
+  print("50 - Water")
+  print(" ")
+  print("Chocolates - 2 AED")
+  dairy_milk=51
+  print("51 - Dairy Milk")
+  galaxy=52
+  print("52 - Galaxy")
+  flakes=53
+  print("53 - Flakes")
+  toblerone=54
+  print("54 - Toblerone")
+  twix=55
+  print("55 - Twix")
+  snickers=56
+  print("56 - Snickers")
+  break_rizzo=57
+  print("57 - Break Rizzo")
+  hersheys=58
+  print("58 - Hersheys")
+  bounty=59
+  print("59 - Bounty")
+  ferero_rocher=60
+  print("60 - Ferero Rocher")
+  print(" ")
+
+  money= int(input("Insert money:"))
+  
+  choice= int(input("Choose your order: "))
+  print(" ")
+  
+
+  if choice==cheetoes:
+    print("---You chose Cheetoes---")
+    print(" ")
+  elif choice==doritoes:
+    print("---You chose Doritoes---")
+    print(" ")
+  elif choice==lays:
+    print("---You chose Lays---")
+    print(" ")
+  elif choice==kurkure:
+    print("---You chose Kurkure---")
+    print(" ")
+  elif choice==oman_chips:
+    print("---You chose Oman Chips---")
+    print(" ")
+  elif choice==pringles:
+    print("---You chose Pringles---")
+    print(" ")
+  elif choice==bugles:
+    print("---You chose Bugles---")
+    print(" ")
+  elif choice==lays_max:
+    print("---You chose Lays MAX---")
+    print(" ")
+  elif choice==mr_krips:
+    print("---You chose Mr Krips---")
+    print(" ")
+  elif choice==takis:
+    print("---You chose Takis---")
+    print(" ")
+  elif choice==m_ms:
+    print("---You chose M&Ms---")
+    print(" ")
+  elif choice==gumballs:
+    print("---You chose Gumballs---")
+    print(" ")
+  elif choice==skittles:
+    print("---You chose Skittles---")
+    print(" ")
+  elif choice==hello_panda:
+    print("---You chose Hello Panda---")
+    print(" ")
+  elif choice==pop_rocks:
+    print("---You chose Pop Rocks---")
+    print(" ")
+  elif choice==sour_candy:
+    print("---You chose Sour Candy---")
+    print(" ")
+  elif choice==bubble_gum:
+    print("---You chose Bubble Gum---")
+    print(" ")
+  elif choice==lolipop:
+    print("---You chose Lolipop---")
+    print(" ")
+  elif choice==coca_cola:
+    print("---You chose Coca Cola---")
+    print(" ")
+  elif choice==seven_up:
+    print("---You chose 7up---")
+    print(" ")
+  elif choice==mountain_dew:
+    print("---You chose Mountain Dew---")
+    print(" ")
+  elif choice==fanta:
+    print("---You chose Fanta---")
+    print(" ")
+  elif choice==sprite:
+    print("---You chose Sprite---")
+    print(" ")
+  elif choice==pepsi:
+    print("---You chose Pepsi---")
+    print(" ")
+  elif choice==apple:
+    print("---You chose Apple Juice---")
+    print(" ")
+  elif choice==orange:
+    print("You chose Orange Juice---")
+    print(" ")
+  elif choice==mango:
+    print("You chose Mango Juice")
+    print(" ")
+  elif choice==strawberry:
+    print("You chose Strawberry Juice")
+    print(" ")
+  elif choice==pomogranate:
+    print("You chose Pomogranate Juice")
+    print(" ")
+  elif choice==lichi:
+    print("You chose Lichi Juice")
+    print(" ")
+  elif choice==lemon:
+    print("You chose Lemon Juice")
+    print(" ")
+  elif choice==lemon_mint:
+    print("You chose Lemon Mint Juice")
+    print(" ")
+  elif choice==mixed:
+    print("You chose Mixed Juice")
+    print(" ")
+  elif choice==water:
+    print("You chose Water")
+    print(" ")
+  elif choice==dairy_milk:
+    print("---You chose Dairy Milk---")
+    print(" ")
+  elif choice==galaxy:
+    print("---You chose Galaxy---")
+    print(" ")
+  elif choice==flakes:
+    print("---You chose Flakes---")
+    print(" ")
+  elif choice==toblerone:
+    print("---You chose Toblerone---")
+    print(" ")
+  elif choice==twix:
+    print("---You chose Twix---")
+    print(" ")
+  elif choice==snickers:
+    print("---You chose Snickers---")
+    print(" ")
+  elif choice==break_rizzo:
+    print("---You chose Break Rizzo---")
+    print(" ")
+  elif choice==hersheys:
+    print("---You chose Hersheys---")
+    print(" ")
+  elif choice==bounty:
+    print("---You chose Bounty---")
+    print(" ")
+  elif choice==ferero_rocher:
+    print("---You chose Ferero Rocher---")
+    print(" ")
+  else:
+    print("Error! Please choose the correct order number")
+    print(" ")
+    continue
+
+  chips_price= 4
+  candy_price= 2
+  soda_price= 3
+  juice_price= 1
+  chocolates_price= 2
+  chips_change= money - chips_price
+  candy_change= money - candy_price
+  soda_change= money - soda_price
+  juice_change= money - juice_price
+  chocolates_change= money - chocolates_price
+
+  chips=[11,12,13,14,15,16,17,18,19,20]
+  candy=[21,22,23,24,25,26,27,28]
+  soda=[31,32,33,34,35,36]
+  juices=[41,42,43,44,45,46,47,48,49,50]
+  chocolates=[51,52,53,54,55,56,57,58,59,60]
+
+  if choice in chips:
+    if money==chips_price:
+      print("---You have deposited enough money to buy Chips---")
+      print(" ")
+    elif money>chips_price:
+      print("Here your change.")
+      print(chips_change)
+      print("Please take your order from the box below.")
+      print(" ")
+      print("Enjoy your Chips. Thank you!")
+      print(" ")
+    else:
+      print("Please enter enough money")
+      print(" ")
+
+      money_re_deposit = float(input("Insert money: "))
+      print(" ")
+      if money_re_deposit + money== candy_price:
+        print("--You have deposited enough money to buy Candy---")
+        print(" ")
+        print("Thank you!-")
+        print(" ")
+        break
+      break
+
+  elif choice in candy:
+    if money==candy_price:
+      print("---You have deposited enough money to buy Candy---")
+      print(" ")
+    elif money>candy_price:
+      print("Here your change.")
+      print(candy_change)
+      print("Please take your order from the box below.")
+      print(" ")
+      print("Enjoy your Candy. Thank you!")
+      print(" ")
+    else:
+      print("Please enter enough money")
+      print(" ")
+
+      money_re_deposit = float(input("Insert money: "))
+      print(" ")
+      if money_re_deposit + money== candy_price:
+        print("--You have deposited enough money to buy Candy---")
+        print(" ")
+        print("Thank you!-")
+        print(" ")
+        break
+
+  elif choice in soda:
+    if money==soda_price:
+      print("---You have deposited enough money to buy Soda---")
+      print(" ")
+    elif money>soda_price:
+      print("Here your change.")
+      print(soda_change)
+      print("Please take your order from the box below.")
+      print(" ")
+      print("Enjoy your Soda. Thank you!")
+      print(" ")
+    else:
+      print("Please enter enough money")
+      print(" ")
+
+      money_re_deposit = float(input("Insert money: "))
+      print(" ")
+      if money_re_deposit + money== soda_price:
+        print("--You have deposited enough money to buy Soda---")
+        print(" ")
+        print("Thank you!-")
+        print(" ")
+        break
+
+  elif choice in juices:
+    if money==juice_price:
+      print("---You have deposited enough money to buy Juice---")
+      print(" ")
+    elif money>juice_price:
+      print("Here your change.")
+      print(juice_change)
+      print("Please take your order from the box below.")
+      print(" ")
+      print("Enjoy your Juice. Thank you!")
+      print(" ")
+    else:
+      print("Please enter enough money")
+      print(" ")
+
+      money_re_deposit = float(input("Insert money: "))
+      print(" ")
+      if money_re_deposit + money== juice_price:
+        print("--You have deposited enough money to buy Juice---")
+        print(" ")
+        print("Thank you!-")
+        print(" ")
+        break
+
+  elif choice in chocolates:
+    if money==chocolates_price:
+      print("---You have deposited enough money to buy Chocolates---")
+      print(" ")
+    elif money>chocolates_price:
+      print("Here your change.")
+      print(chocolates_change)
+      print("Please take your order from the box below.")
+      print(" ")
+      print("Enjoy your Chocolate. Thank you!")
+      print(" ")
+    else:
+      print("Please enter enough money")
+      print(" ")
+
+      money_re_deposit = float(input("Insert money: "))
+      print(" ")
+      if money_re_deposit + money== chocolates_price:
+        print("--You have deposited enough money to buy Chocolate---")
+        print(" ")
+        print("Thank you!-")
+        print(" ")
+        break
+
+  order=str(input("Do you want to order again? (yes/no) : "))
+  if order=="no":
+    break
+  else:
+    continue
